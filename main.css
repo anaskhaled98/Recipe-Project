@@ -1,0 +1,53 @@
+:root {
+  --primary-color: hsl(24, 5%, 18%);
+  --main-header: hsl(24, 5%, 18%);
+  --header: hsl(14, 45%, 36%);
+  --rose: hsl(332, 51%, 32%);
+  --wrapper: hsl(30, 54%, 90%);
+  --background: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color: var(--wrapper);
+}
+
+body {
+  padding: 3.5rem;
+  border-radius: 2rem;
+  background-color: var(--background);
+  max-width: 70rem;
+  margin: 0 auto;
+  font-family: "Outfit", serif;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+
+/* Header */
+.main-header {
+  font-size: 3.5rem;
+  color: var(--main-header);
+  margin-block: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+
+.photo-wrapper {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
+}
